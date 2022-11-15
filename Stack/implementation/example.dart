@@ -1,4 +1,4 @@
-import 'stack.dart';
+import '../stack.dart';
 
 void main() {
   final stack = Stack<String>();
@@ -9,4 +9,7 @@ void main() {
   stack.push("3");
   stack.push("4");
   print(stack);
+  print("Size: " + stack.size().toString());
+  print("Top: " + stack.top().toString());
+  print("isEmpty: " + stack.isEmpty().toString());
 }
